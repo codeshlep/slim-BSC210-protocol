@@ -18,13 +18,14 @@ Core design
 
   The BSC210 package builds a single streamline memory object called slim. Slim is a powerful tool built around user contract management and builds many key features into the Binance Smart Chain DApp enviroment. Slim uses classes and mapping to store valuable information such as contract addresses, interest rates, date conditions and more in a compact form.
   
-   Example
-   Check the balance of an address: slim.balance[account].
-
-   Read the trust level of an address: slim.accessLevel[account].
-    
-   DeFi memory has an embedded object, commit.
+Example usage
    
-   Read value of ICO Locked by an address: slim.commit[account].value.
+  # Check the balance of an address: slim.balance[account].
 
-   Read APR of ICO Locked by an address: slim.commit[account].APR.
+  # Read the trust level of an address: slim.accessLevel[account].
+    
+  ** DeFi storage has an embedded object, commit.
+   
+  # Read value of ICO Locked by an address: slim.commit[account].value.
+
+  # Read APR of ICO Locked by an address: slim.commit[account].APR.
