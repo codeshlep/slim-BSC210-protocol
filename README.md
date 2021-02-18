@@ -39,3 +39,7 @@ Example usage
   * Read APR of ICO Locked by an address: slim.commit[account].APR
 
   * Adding new embedded elements is easy, simply add them to BSC210.sol
+  
+  * Feel free to reach out with any questions you may have!
+
+  Donations in BSC welcome :) 0x1A358a896AFa322A3f20Bcb7c9f71E6946CA51E6
