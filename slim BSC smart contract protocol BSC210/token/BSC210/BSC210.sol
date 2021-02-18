@@ -59,7 +59,7 @@ mapping(address => commit_) commit;
 mapping(address => uint256) accessLevel; 
 }
 
-    _slim slim;
+    _slim slim;/*you ICO here (_slim ICO;)*/
 
     constructor(string memory name, string memory symbol) public { //Build BSC210 ICO
         slim.name = name;           
