@@ -11,8 +11,8 @@ Protocol designed to improve function of https://github.com/binance-chain.
 For prerequisites and detailed build instructions please read the installation of the above repositories.
 
 Slim Protocol Installation.
-After installation of other packages such as those above.
--> git clone https://github.com/codeshlep/slim-BSC210-protocol -y
+Before installation of other packages such as those above.
+* git clone https://github.com/codeshlep/slim-BSC210-protocol -y
 
 Core design
 
