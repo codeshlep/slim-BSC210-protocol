@@ -7,7 +7,7 @@
  * - @title https://github.com/codeshlep/slim-BSC210-protocol v1.01
  * - Please report bugs to tonhousto@gmail.com.
  * - BSC210 (slim) smart contract technical standard. Replaces BEP20/x. Designed for compatibility with PancakeSwap utilities.
- * - Created By Anthony Houston: tonhousto@gmail.com, you may reuse and distribute in any form so long as this license and the above description 
+ * - Created By Anthony Houston: tonhousto@gmail.com. Donations welcome 0x1A358a896AFa322A3f20Bcb7c9f71E6946CA51E6 :). You may reuse and distribute in any form so          long as this license and the above description 
  * - remain intack.
  * - - - - - - - - - 
  *
