@@ -31,6 +31,8 @@ Example usage
   * Read the trust level of an address: slim.accessLevel[account]
     
   * DeFi storage has an embedded object, commit.
+  
+  * Contact us with any questions!
    
   * Read value of ICO Locked by an address: slim.commit[account].value
 
