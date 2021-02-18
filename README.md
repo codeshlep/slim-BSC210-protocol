@@ -1,2 +1,2 @@
 # slim-BSC210-protocol
-Updated Binance Smart-Chain BEP Smart Contract Standard. https://github.com/pancakeswap Compatible.
+Updated and Enhance Binance Smart-Chain BEP20 Smart Contract Standard. https://github.com/pancakeswap Compatible.
