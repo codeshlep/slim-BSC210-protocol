@@ -6,7 +6,7 @@ Updated and Enhanced Binance Smart-Chain BEP20 Smart Contract Standard Protocol.
  * - BSC210 (slim) smart contract technical standard. Replaces BEP20/x. Designed for compatibility with PancakeSwap utilities.
  * - Created By Anthony Houston: tonhousto@gmail.com, you may reuse and distribute in any form so long as this license and the above description 
  * - remain intack.
- * 
+  
 Slim-Protocol
 
 Official FutureCoin implementation of the Binance Smart Chain protocol.
@@ -36,4 +36,4 @@ Example usage
 
   * Read APR of ICO Locked by an address: slim.commit[account].APR.
 
-#Adding new embedded elements is easy, simply add them to BSC210.sol.
+  * Adding new embedded elements is easy, simply add them to BSC210.sol.
