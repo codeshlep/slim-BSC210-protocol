@@ -5,9 +5,9 @@
  *
  * - POWERED BY Binance Smart-Chain. Compatible with the work found @https://github.com/pancakeswap
  * - @title https://github.com/codeshlep/slim-BSC210-protocol v1.01
- * - Please report bugs to https://github.com/codeshlep.
+ * - Please report bugs to tonhousto@gmail.com.
  * - BSC210 (slim) smart contract technical standard. Replaces BEP20/x. Designed for compatibility with PancakeSwap utilities.
- * - Created By Anthony Houston, you may reuse and distribute in any form so long as this license and the above description 
+ * - Created By Anthony Houston: tonhousto@gmail.com, you may reuse and distribute in any form so long as this license and the above description 
  * - remain intack.
  * - - - - - - - - - 
  *
