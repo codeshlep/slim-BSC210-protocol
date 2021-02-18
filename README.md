@@ -20,12 +20,14 @@ Core design
   
 Example usage
    
-  # Check the balance of an address: slim.balance[account].
+  * Check the balance of an address: slim.balance[account].
 
-  # Read the trust level of an address: slim.accessLevel[account].
+  * Read the trust level of an address: slim.accessLevel[account].
     
   ** DeFi storage has an embedded object, commit.
    
-  # Read value of ICO Locked by an address: slim.commit[account].value.
+  * Read value of ICO Locked by an address: slim.commit[account].value.
 
-  # Read APR of ICO Locked by an address: slim.commit[account].APR.
+  * Read APR of ICO Locked by an address: slim.commit[account].APR.
+
+#Adding new embedded elements is easy, simply add them to BSC210.sol.
