@@ -36,30 +36,30 @@ contract BSC210 is Context, IBSC210, Ownable  // BSC210 Pancake compatible compa
      * consumption.
      */
 
-struct commit_{
-uint256 value;       // Store value liquidity locked.
-address asset;
-uint256 end;     // Store time liquidity unlocks.
-uint256 start;   // Store time liquidity was locked.
+struct commit_{     // Establish commit object.
+uint256 value;      // Store value liquidity locked.
+address asset;      // Store asset contract address.
+uint256 end;        // Store time liquidity unlocks.
+uint256 start;      // Store time liquidity was locked.
 uint256 APR;        // Store percentage interest agreed upom for locked liquidity.
-string terms; 
+string terms;       // Extra storage for promos or notes.
 }
 
 
 struct _slim
 {
 
-string name;                                   // ICO name.
-string symbol;                                 // ICO symbol.
-uint8 decimals;                                // ICO decimals.
-uint256 totalSupply;                           // Current circulation of ICO.
-mapping(address => uint256) balance;          // Map user balance.
+string name;                                 // ICO name.
+string symbol;                               // ICO symbol.
+uint8 decimals;                              // ICO decimals.
+uint256 totalSupply;                         // Current circulation of ICO.
+mapping(address => uint256) balance;         // Map user balance.
 mapping(address => mapping(address => uint256)) allowances;// Store user allowances.
-mapping(address => commit_) commit;
-mapping(address => uint256) accessLevel; 
+mapping(address => commit_) commit;          //Map commit object to each user.
+mapping(address => uint256) accessLevel;     //Map player access Level
 }
 
-    _slim slim;/*you ICO here (_slim ICO;)*/
+    _slim slim;/*you ICO here (_slim <Your-ICO>;)*/
 
     constructor(string memory name, string memory symbol) public { //Build BSC210 ICO
         slim.name = name;           
